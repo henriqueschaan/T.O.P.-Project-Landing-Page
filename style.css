@@ -17,7 +17,7 @@ body {
 }
 
 .headercontainer {
-    color: white;
+    color: rgb(223, 223, 223);
     display: flex;
     justify-content: space-between;
 }
@@ -53,7 +53,6 @@ li {
 }
 
 .body1container {
-    color: white;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -65,6 +64,7 @@ li {
 }
 
 .maintext {
+    color: rgb(223, 223, 223);
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
@@ -73,7 +73,7 @@ li {
 .sectext {
     font-size: 18px;
     margin: 0;
-    color: rgb(214, 214, 214);
+    color: rgb(184, 184, 184);
 }
 
 .signup {
@@ -81,25 +81,28 @@ li {
 }
 
 .signupbutton {
+    color: rgb(223, 223, 223);
     font-size: 18px;
-    background-color: #3882f6;
+    background-color: #303030;
     margin: 10px 0 0 0;
     padding: 10px 40px;
-    border: solid 2px #1a3d75;;
+    border: solid 2px #1a1a1a;;
     border-radius: 10px;
 }
 
 .body1img {
     background-color: rgb(99, 99, 99);
-    width: 500px;
-    padding: 100px 0;
-    text-align: center;
+}
+
+.img1 {
+    height: 238px;
+    width: 470px;
 }
 
 
 /* body2 */
 .body2 {
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(114, 114, 114);
     display: flex;
     justify-content: center;
 }
@@ -133,10 +136,17 @@ li {
     margin-bottom: 10px;
 }
 
+.img21 {
+    border: solid rgb(80, 80, 80);
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
 
 /* body3 */
 .body3 {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(83, 83, 83);
     display: flex;
     justify-content: center;
 }
@@ -162,7 +172,7 @@ li {
 
 /* body4 */
 .body4 {
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(114, 114, 114);
     display: flex;
     justify-content: center;
 }
@@ -174,7 +184,7 @@ li {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(83, 83, 83);
     border-radius: 15px;
 }
 
@@ -193,14 +203,14 @@ li {
     font-size: 24px;
     margin: 0;
     padding: 10px 40px;
-    border: solid 2px rgb(151, 151, 151);
+    border: solid 2px rgb(119, 119, 119);
     border-radius: 10px;
 }
 
 /* footer */
 .footer {
     background-color: rgb(44, 44, 44);
-    color: white;
+    color: rgb(221, 221, 221);
     height: 80px;
     display: flex;
     align-items: center;
